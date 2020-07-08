@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  Boticario.docker.mssql:
+    image: ${DOCKER_REGISTRY-}boticariolpdockermssql
+    build:
+      context: .
+      dockerfile: Boticario.Docker.MsSQL/Dockerfile
+
+  Boticario.webapi:
+    image: ${DOCKER_REGISTRY-}boticariolpwebapi
+    build:
+      context: .
+      dockerfile: Boticario.WebApi/Dockerfile
+

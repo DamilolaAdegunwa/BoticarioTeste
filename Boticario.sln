@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boticario.WebApi", "Boticario.WebApi\Boticario.WebApi.csproj", "{11099BB7-26C8-4457-B1E0-C1ECB7E4902D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boticario.Domain", "Boticario.Domain\Boticario.Domain.csproj", "{2C9EFAD1-1FA7-4F9A-9F01-3924B15D325B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boticario.Infraestructure", "Boticario.Infraestructure\Boticario.Infraestructure.csproj", "{C426949C-4776-4D01-B157-61E4263E8F58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boticario.Service", "Boticario.Service\Boticario.Service.csproj", "{AB6A3B75-2252-4F12-802E-6B96F99C7E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{A5C5895A-AF54-43AB-B493-3ACBCC724ABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boticario.Docker.MsSQL", "Boticario.Docker.MsSQL\Boticario.Docker.MsSQL.csproj", "{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5779E6B8-7234-4CA9-B8C1-89084DBC237B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boticario.Testes", "Boticario.Testes\Boticario.Testes.csproj", "{CE5AAC5F-7687-43E9-888B-9D87ED3580FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11099BB7-26C8-4457-B1E0-C1ECB7E4902D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11099BB7-26C8-4457-B1E0-C1ECB7E4902D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11099BB7-26C8-4457-B1E0-C1ECB7E4902D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11099BB7-26C8-4457-B1E0-C1ECB7E4902D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9EFAD1-1FA7-4F9A-9F01-3924B15D325B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9EFAD1-1FA7-4F9A-9F01-3924B15D325B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9EFAD1-1FA7-4F9A-9F01-3924B15D325B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9EFAD1-1FA7-4F9A-9F01-3924B15D325B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C426949C-4776-4D01-B157-61E4263E8F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C426949C-4776-4D01-B157-61E4263E8F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C426949C-4776-4D01-B157-61E4263E8F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C426949C-4776-4D01-B157-61E4263E8F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6A3B75-2252-4F12-802E-6B96F99C7E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6A3B75-2252-4F12-802E-6B96F99C7E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6A3B75-2252-4F12-802E-6B96F99C7E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6A3B75-2252-4F12-802E-6B96F99C7E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5779E6B8-7234-4CA9-B8C1-89084DBC237B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5779E6B8-7234-4CA9-B8C1-89084DBC237B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5779E6B8-7234-4CA9-B8C1-89084DBC237B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5779E6B8-7234-4CA9-B8C1-89084DBC237B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5AAC5F-7687-43E9-888B-9D87ED3580FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5AAC5F-7687-43E9-888B-9D87ED3580FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5AAC5F-7687-43E9-888B-9D87ED3580FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5AAC5F-7687-43E9-888B-9D87ED3580FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F06F6FA9-32FB-4C2A-A2AC-AC32CA7B8A0A} = {A5C5895A-AF54-43AB-B493-3ACBCC724ABE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF89E2A7-448C-4A51-8D2D-ECE0D1E3EEDF}
+	EndGlobalSection
+EndGlobal
